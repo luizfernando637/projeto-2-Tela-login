@@ -40,11 +40,14 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
+
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
 
-    background: #5f2c82 url(../projeto-2-modulo-04/imagens/pexels-willian-justen-de-vasconcellos-15988882\ \(1\).jpg) no-repeat;
+    background: #5f2c82 url(../imagens/pexels-willian-justen-de-vasconcellos-15988882\ \(1\).jpg) no-repeat;
     background-size: cover;
     background-position: center bottom;
     height: 200px;
