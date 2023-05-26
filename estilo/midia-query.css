@@ -23,6 +23,7 @@
         background-position: center bottom;
         height: 200px;
         display: block;
+        width: 100%;
     }
 
     section#login > div#imagem {
@@ -87,11 +88,12 @@
 
     section#login > div#imagem {
 
-        background: #5f2c82 url(../imagens/pexels-angelo-bertini-16780574.jpg) no-repeat;
+        background: #5f2c82 url(../imagens/pexels-basile-soyer-16628103.jpg) no-repeat;
         background-size: cover;
         background-position: center bottom;
-        height: 200px;
+        height: 100%;
         display: block;
+        
     }
 
     section#login > div#formulario {
