@@ -18,6 +18,15 @@
 
     section#login > div#imagem {
 
+        background: #5f2c82 url(../imagens/pexels-lidia-miralles-16968296.jpg) no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        height: 200px;
+        display: block;
+    }
+
+    section#login > div#imagem {
+
         float: left;
         width: 30%;
         height: 100%;
@@ -39,6 +48,19 @@
     div#formulario > p {
 
         font-size: 0.9em;
+    }
+
+    div.campo > input {
+
+        background-color: #61dfda;
+        font-size: 1em;
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        width: calc(89% - 2px);
+        transform: translateY(-12px);
+    
     }
 
 }
@@ -63,6 +85,15 @@
 
     }
 
+    section#login > div#imagem {
+
+        background: #5f2c82 url(../imagens/pexels-angelo-bertini-16780574.jpg) no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        height: 200px;
+        display: block;
+    }
+
     section#login > div#formulario {
 
         float: left;
@@ -78,7 +109,22 @@
     div#formulario > p {
 
         font-size: 1em;
+        margin: 2px 0px;
     }
+
+    div.campo > input {
+
+        background-color: #61dfda;
+        font-size: 1em;
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        width: calc(91% - 2px);
+        transform: translateY(-12px);
+    
+    }
+
 }
 
 
